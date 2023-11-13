@@ -1,6 +1,10 @@
 function stringChop(str, size) {
   // your code here
 
+  if (str.length === 0) {
+    return [];
+  }
+
   size = parseInt(size);
   let arr = [],
     i = 0;
