@@ -6,8 +6,10 @@ function stringChop(str, size) {
   }
 
   size = parseInt(size);
-  let arr = [],
-    i = 0;
+
+  const arr = [];
+  let i = 0;
+
   while (i < str.length) {
     arr.push(str.slice(i, i + size));
     i += size;
